@@ -1,0 +1,80 @@
+.main-comment {
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+  }
+  
+  .comment-text[contenteditable='true'] {
+    outline: 1px solid #ccc;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .sub-comment {
+    margin-left: 2rem;
+  }
+  
+  button {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  input {
+    display: block;
+    margin: 0.5rem 0;
+   
+    outline: none;
+    border: 1px solid gray;
+    font-family: sans-serif;
+  }
+  
+  textarea {
+    resize: none;
+    width: 61%;
+    outline: none;
+    border: 1px solid gray;
+    font-family: sans-serif;
+  }
+
+  .nameStyel{
+    color: rgb(67, 110, 189) !important;
+    font-weight: 700;
+  }
+
+  .textStyle{
+    border: 0;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 27px;
+    font-family: sans-serif;
+    padding: 0px 20px 10px 20px;
+    margin: 0px;
+  }
+
+  .time_ago{
+    font-weight: 500;
+    font-size: 12px;
+    color: #687a86;
+    text-transform: capitalize;
+    margin-top: 23px;
+    margin-left: 8px;
+  }
+
+  .bullet{
+    width: 4px;
+    background: #c2c6cc;
+    height: 4px;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-top: 28px;
+  }
+
+  .refer_to{
+    font-weight: 500;
+    font-size: 12px;
+    color: #687a86;
+    text-transform: capitalize;
+    margin-top: 23px;
+    margin-left: 6px;
+  }
